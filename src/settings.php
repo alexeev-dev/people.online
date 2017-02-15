@@ -6,7 +6,7 @@ return [
 
         // TWIG settings
         'twig' => [
-            'template_path' => __DIR__ . '/../templates/',
+            'template_path' => __DIR__ . '/../resources/templates/',
             'options' => [
               'cache' => false
             ]

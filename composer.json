@@ -1,14 +1,13 @@
 {
-    "name": "slim/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
-    "keywords": ["microframework", "rest", "router", "psr7"],
-    "homepage": "http://github.com/slimphp/Slim-Skeleton",
+    "name": "html5css3-pro/people.online",
+    "description": "application source code",
+    "keywords": ["php", "html", "css", "js"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Josh Lockhart",
-            "email": "info@joshlockhart.com",
-            "homepage": "http://www.joshlockhart.com/"
+            "name": "Vladimir V Shalaev",
+            "email": "vladimir-shalaev22@yandex.ru",
+            "homepage": "http://vk.com/titanium4februa"
         }
     ],
     "require": {
@@ -28,7 +27,7 @@
         }
     },
 	"scripts": {
-        "start": "php -S 0.0.0.0:8080 -t public public/index.php",
+        "start": "php -S 0.0.0.0:8080 -t public public/index.php & gulp",
         "test": "phpunit"
 	}
 
